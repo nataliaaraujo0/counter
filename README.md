@@ -13,6 +13,11 @@
 </div>
 <br><br>
 
+### Telas
+ ![image](https://user-images.githubusercontent.com/81394067/150691276-21c112b1-a913-4138-980c-4c1dd2148854.png)
+![image](https://user-images.githubusercontent.com/81394067/150691286-d3b02585-7ce4-4acb-81ea-3169b6b4c3f7.png)
+
+
 ### Etapas do projeto
 
 - [ ] **Versão 1** - Desenvolver interface;
