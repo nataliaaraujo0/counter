@@ -1,5 +1,15 @@
+import "./styles/global.scss";
+import { Button } from "./components/Button";
+import { Header } from "./components/Header";
+import { CounterList } from "./components/CounterList";
 function App() {
-  return <h1>hello word</h1>;
+  return (
+    <>
+      <Header />
+      <Button />
+      <CounterList />
+    </>
+  );
 }
 
 export default App;
