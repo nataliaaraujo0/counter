@@ -1,14 +1,11 @@
 import "./styles/global.scss";
-import { Button } from "./components/Button";
+import styles from "./home.module.scss";
 import { Header } from "./components/Header";
-import { CounterList } from "./components/CounterList";
 function App() {
   return (
-    <>
+    <main className={styles.container}>
       <Header />
-      <Button />
-      <CounterList />
-    </>
+    </main>
   );
 }
 

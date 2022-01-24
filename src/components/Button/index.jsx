@@ -1,4 +1,9 @@
 import styles from "../Button/styles.module.scss";
-export function Button() {
-  return <h1>Button</h1>;
+
+export function Button({ buttonText = "add counter" }) {
+  return (
+    <>
+      <button>{buttonText && <span>{buttonText}</span>}</button>
+    </>
+  );
 }
