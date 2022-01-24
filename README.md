@@ -22,6 +22,7 @@
 
 - [x] **Versão 1** - Desenvolver interface;
 - [ ] **Versão 2** - Criar contadores;
+- [ ] **Versão 3** - Fazer responsividade;
 
 <br>
 
