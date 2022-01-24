@@ -1,6 +1,7 @@
 import styles from "../Header/styles.module.scss";
 import logoImg from "../../assets/logo.svg";
 import { Button } from "../Button";
+import { Link } from "react-router-dom";
 
 export function Header() {
   // <img src={logoImg} alt="dt urban" />
@@ -13,7 +14,9 @@ export function Header() {
 
       <p>Click the button to create a counter</p>
 
-      <Button />
+      <Link to="/counter">
+        <Button />
+      </Link>
     </header>
   );
 }

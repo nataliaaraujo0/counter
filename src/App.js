@@ -10,7 +10,7 @@ function App() {
       <main className={styles.container}>
         <Routes>
           <Route path="/" exact element={<Home />} />
-          <Route path="/counter" element={<Counter/>} />
+          <Route path="/counter" element={<Counter />} />
         </Routes>
       </main>
     </Router>
