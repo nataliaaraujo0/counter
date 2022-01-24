@@ -20,7 +20,7 @@
 
 ### Etapas do projeto
 
-- [ ] **Versão 1** - Desenvolver interface;
+- [x] **Versão 1** - Desenvolver interface;
 - [ ] **Versão 2** - Criar contadores;
 
 <br>
