@@ -1,5 +1,6 @@
+import { CounterList } from "../components/CounterList";
 const Counter = () => {
-  return <h1>pagina 2</h1>;
+  return <CounterList />;
 };
 
 export default Counter;
