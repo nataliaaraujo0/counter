@@ -8,7 +8,7 @@ import { decrement, increment } from "../../store/counterSlice";
 
 export function CardItem() {
   const count = useSelector(state => state.counter.value);
-  const dispatch = useDispatch();
+   const dispatch = useDispatch();
 
   return (
     <div className={styles.container}>
@@ -34,8 +34,6 @@ export function CardItem() {
           </div>
         </div>
       </div>
-
-      
     </div>
   );
 }
