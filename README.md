@@ -4,7 +4,7 @@
 ![counter app](https://user-images.githubusercontent.com/81394067/150690960-b7d862e3-933f-468f-864d-1f39f661ee6f.png)
 
 # CounterApp
-<img  src ="https://img.shields.io/badge/in%20progress%20-vers%C3%A3o%202-yellow"/>
+<img  src ="https://img.shields.io/badge/in%20progress%20-vers%C3%A3o%203-purple"/>
 
 ### Criando contadores com React, Redux e Sass.
 
@@ -21,7 +21,7 @@
 ### Etapas do projeto
 
 - [x] **Versão 1** - Desenvolver interface;
-- [ ] **Versão 2** - Criar contadores;
+- [x] **Versão 2** - Criar contadores;
 - [ ] **Versão 3** - Fazer responsividade;
 
 <br>
