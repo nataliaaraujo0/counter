@@ -2,7 +2,6 @@ import styles from "../CardItem/styles.module.scss";
 import RemoveIcon from "../../assets/icon-romove.svg";
 import MinusIcon from "../../assets/icon-minus.svg";
 import PlusIcon from "../../assets/icon-plus.svg";
-import { Button } from "../../components/Button";
 
 import { useSelector, useDispatch } from "react-redux";
 import { decrement, increment } from "../../store/counterSlice";
@@ -36,7 +35,7 @@ export function CardItem() {
         </div>
       </div>
 
-      <Button buttonText="add more counters" />
+      
     </div>
   );
 }
