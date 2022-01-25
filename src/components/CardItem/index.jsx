@@ -4,7 +4,13 @@ import MinusIcon from "../../assets/icon-minus.svg";
 import PlusIcon from "../../assets/icon-plus.svg";
 import { Button } from "../../components/Button";
 
+import { useSelector, useDispatch } from "react-redux";
+import { decrement, increment } from "../../store/counterSlice";
+
 export function CardItem() {
+  const count = useSelector(state => state.counter.value);
+  const dispatch = useDispatch();
+
   return (
     <div className={styles.container}>
       <div className={styles.counterWrapper}>
@@ -12,6 +18,7 @@ export function CardItem() {
           className={styles.removeIcon}
           src={RemoveIcon}
           alt="Remove counter"
+          onClick={() => dispatch(increment())}
         />
         <div className={styles.cardCounterWrapper}>
           <h1>0</h1>
@@ -23,6 +30,6 @@ export function CardItem() {
       </div>
 
       <Button buttonText="add more counters" />
-    </div>
+    </div>slice
   );
 }
