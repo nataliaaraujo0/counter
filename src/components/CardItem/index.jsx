@@ -18,18 +18,25 @@ export function CardItem() {
           className={styles.removeIcon}
           src={RemoveIcon}
           alt="Remove counter"
-          onClick={() => dispatch(increment())}
         />
         <div className={styles.cardCounterWrapper}>
-          <h1>0</h1>
+          <h1>{count}</h1>
           <div className={styles.cardoOptions}>
-            <img src={MinusIcon} alt="Minus Icon" />
-            <img src={PlusIcon} alt="Plus Icon" />
+            <img
+              src={MinusIcon}
+              alt="Minus Icon"
+              onClick={() => dispatch(decrement())}
+            />
+            <img
+              src={PlusIcon}
+              alt="Plus Icon"
+              onClick={() => dispatch(increment())}
+            />
           </div>
         </div>
       </div>
 
       <Button buttonText="add more counters" />
-    </div>slice
+    </div>
   );
 }
